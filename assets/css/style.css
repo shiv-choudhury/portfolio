@@ -603,6 +603,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .img-thumbnail {
@@ -11336,7 +11337,7 @@ fieldset:disabled .btn {
   max-width: 100%;
 }
 
-.border-purple{
+.border-purple {
   border: 1px solid #9926f0f2;
 }
 
@@ -11572,23 +11573,6 @@ fieldset:disabled .btn {
 .footer-bottom__copyright a:hover {
   color: #9926f0;
   text-decoration: underline;
-}
-
-.back-to-top {
-  position: fixed;
-  width: 3rem;
-  height: 3rem;
-  right: 1.875rem;
-  bottom: 1.875rem;
-  z-index: 9999;
-}
-.back-to-top i {
-  color: #fff;
-  font-size: 1rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
