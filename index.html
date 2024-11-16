@@ -26,6 +26,12 @@
         width: 50px;
         object-fit: contain;
       }
+      .techstack2 {
+        margin: 10px;
+        height: 50px;
+        width: 70px;
+        object-fit: contain;
+      }
       .graduation-cap{
         color: #9926f0;
         font-size: xx-large;
@@ -33,6 +39,12 @@
       }
       .education-card{
         background-color: #e3a2ff;
+      }
+      .giva{
+        color: #ffffff;
+      }
+      .giva:hover{
+        color: #ffffff;
       }
     </style>
 </head>
@@ -76,7 +88,10 @@
         <h1 class="display-2">
           <span class="display-2--intro">Shivprasad Choudhury</span>
           <span class="display-2--description lh-base">
-            Software Engineer at Freestone Infotech Pvt. Ltd.
+            Software Development Engineer at 
+            <a target="_blank" class="giva" href="https://www.giva.co">
+              Giva
+            </a>
           </span>
         </h1>
         <button id="downloadResume" type="button" class="rounded-pill btn-rounded">Download Resume
@@ -127,6 +142,42 @@
           <h1 class="display-3 fw-bold">Experience</h1>
           <div class="heading-line mb-1"></div>
         </div>
+
+                <!-- Giva  -->
+                <div class="row mt-5 p-3 rounded-4 education-card mx-1">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services">
+                    <div class="">
+                      <div class="display-3--title mt-1">Giva</div><br/>
+                      <div class="display-2--title mt-1">Oct 2024 - Present</div>
+                        <ul>
+                          <li>Software Development Engineer at Giva</li>
+                          <li>
+                            Building a POS(Point of Sale) application with Next.js, React hooks, Redux, and Tailwind CSS.
+                          </li>
+                        </ul>
+                        <a target="_blank" href="https://www.giva.co">
+                          <button type="button" class="rounded-pill btn-rounded border-primary">Visit
+                            <span><i class="fas fa-arrow-right"></i></span>
+                          </button>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services text-end">
+                    <div class=" border-purple rounded-3">
+                      <img src="images/screenshots/giva-site.png" alt="paig dashboard" class="img-fluid rounded-3">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="display-2--title mt-1">Techstack:</div><Br/>
+                    <img class="techstack" src="./images/techstack/nextjs.png" alt="nextjs" />
+                    <img class="techstack2" src="./images/techstack/tailwind.svg" alt="tailwind" />
+                    <img class="techstack2" src="./images/techstack/redux.png" alt="redux" />
+                    <img class="techstack" src="./images/techstack/html5.png" alt="html5" />
+                    <img class="techstack" src="./images/techstack/css3.png" alt="css3" />
+                    <img class="techstack" src="./images/techstack/javascript.png" alt="javascript" />
+                    <img class="techstack" src="./images/techstack/git.png" alt="git" />
+                  </div>
+                </div>
 
         <!-- PREDFLOW  -->
         <div class="row mt-5 p-3 rounded-4 education-card mx-1">
